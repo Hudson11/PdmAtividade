@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/imagem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="304dp"
+        android:layout_height="250dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
@@ -35,12 +35,12 @@
         android:id="@+id/digite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="16dp"
-        android:inputType="number"
         android:ems="10"
         android:hint="Digite"
+        android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ViewImagem" />
@@ -49,13 +49,14 @@
         android:id="@+id/ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="64dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Ok"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/digite"
         app:layout_constraintTop_toBottomOf="@+id/ViewImagem" />
 
@@ -70,7 +71,9 @@
         android:text="Cancelar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/digite" />
+        app:layout_constraintTop_toBottomOf="@+id/digite"
+        app:layout_constraintVertical_bias="0.461" />
 
 </android.support.constraint.ConstraintLayout>
